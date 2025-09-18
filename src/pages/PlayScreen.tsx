@@ -114,7 +114,7 @@ const PlayScreen: React.FC = () => {
 					<div className="mb-6">
 						<div className="border-2 border-dashed border-gray-300 rounded-lg p-6 hover:border-blue-400 transition-colors cursor-pointer text-center bg-gray-50">
 							<img
-								src="/images/ginichiro/ginichiro.png"
+								src="/fukuwarai/images/ginichiro/ginichiro.png"
 								alt="ぎんいちろう完成形"
 								className="w-32 h-32 mx-auto mb-4 object-contain"
 							/>
@@ -157,7 +157,7 @@ const PlayScreen: React.FC = () => {
 					<div className="relative w-96 h-96 mx-auto bg-gradient-to-br from-blue-50 to-yellow-50 rounded-lg border-2 border-gray-200 mb-6">
 						{/* 背景画像 */}
 						<img
-							src="/images/backgrounds/play/blackboard_1.jpg"
+							src="/fukuwarai/images/backgrounds/play/blackboard_1.jpg"
 							alt="背景"
 							className="absolute inset-0 w-full h-full object-cover rounded-lg opacity-30"
 							onError={(e) => {
@@ -173,7 +173,7 @@ const PlayScreen: React.FC = () => {
 							return (
 								<img
 									key={partName}
-									src={`/images/ginichiro/ginichiro_parts/${partName}.jpg`}
+									src={`/fukuwarai/images/ginichiro/ginichiro_parts/${partName}.jpg`}
 									alt={partName}
 									className="absolute w-64 h-64"
 									width="1024"
@@ -265,7 +265,7 @@ const PlayScreen: React.FC = () => {
 
 								<div className="border-2 border-dashed border-gray-300 rounded-lg p-4 text-center bg-gray-50">
 									<img
-										src={`/images/ginichiro/ginichiro_parts/${currentPart}.jpg`}
+										src={`/fukuwarai/images/ginichiro/ginichiro_parts/${currentPart}.jpg`}
 										alt={currentPart}
 										className="w-32 h-32 mx-auto mb-3 object-contain cursor-move"
 										draggable
@@ -334,7 +334,7 @@ const PlayScreen: React.FC = () => {
 								>
 									{/* 背景ガイド */}
 									<img
-										src="/images/backgrounds/play/blackboard_1.jpg"
+										src="/fukuwarai/images/backgrounds/play/blackboard_1.jpg"
 										alt="背景ガイド"
 										className="absolute inset-0 w-full h-full object-contain opacity-20"
 										onError={(e) => {
